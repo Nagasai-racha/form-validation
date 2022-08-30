@@ -1,0 +1,81 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    background-image: linear-gradient(to top right , red , blue);
+}
+form{
+    /* border: 2px solid black; */
+    width: 400px;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px;
+    background-image: linear-gradient(to top right, blue , red);
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-control{
+    padding: 0px 10px;
+    position: relative;
+
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.success input{
+    border: 2px solid lime;
+    
+}
+.error input{
+    border: 2px solid red ;
+}
+.form-control label{
+    text-transform: uppercase;
+}
+button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    background-color:tomato;
+    background-image: linear-gradient(to top right , red , blue);
+}
+i{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    visibility: hidden;
+}
+.success i.fa-check-circle{
+    color:limegreen;
+    visibility: visible;
+}
+.error i.fa-circle-exclamation{
+    color: tomato;
+    visibility: visible;
+}
+p{
+    color: red;
+    margin-top: 0px;
+    visibility: hidden;
+}
+.error p{
+    visibility: visible;
+}
